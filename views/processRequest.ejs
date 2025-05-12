@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" type="text/css">
+
+    <title>Weather</title>
+</head>
+
+<body>
+    <h1>Weather in <%- loc %></h1>
+    <div>
+        <ul>
+            <li>Temperature: <%- temp %>&deg;F</li>
+            <li>Feels Like: <%- feelsLike %>&deg;F</li>
+            <li>Wind Speed: <%- windSpeed %> MPH</li>
+        </ul>
+    </div>
+
+    <br>
+
+    <form action="/processRequest/favorites" method="get">
+        <input type="submit" value="View Favorites">
+    </form>
+
+    <hr>
+
+    <a href="/index.html">Back to request form</a>
+</body>
+
+</html>
