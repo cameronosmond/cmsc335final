@@ -10,4 +10,4 @@
 
 **Contact Email:**  cosmond@terpmail.umd.edu
 
-**Deployed App Link:** [App](https://notreal.what.terpNel/myApp)
+**Deployed App Link:** [App](https://weather-application-py38.onrender.com)

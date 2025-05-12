@@ -28,4 +28,3 @@ directory when server starts */
 app.use(express.static(publicPath));
 
 app.listen(portNumber);
-console.log(`Web server started and running at http://localhost:${portNumber}/`);
